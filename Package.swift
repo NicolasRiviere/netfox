@@ -15,7 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "netfox",
-                path: "netfox",
+                path: "./netfox",
                 exclude: ["OSX"])
     ],
     swiftLanguageVersions: [.v5]
